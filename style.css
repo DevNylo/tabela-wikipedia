@@ -87,6 +87,7 @@ a:hover{
 
 
 h1{
+    width: 100%;
     text-align: center ;
     padding: 50px;
 }
@@ -97,7 +98,6 @@ h1 a{
 }
 
 table{
-    width: 10vw;
     margin: auto;
     border-collapse: collapse;
     margin-bottom: 50px;
@@ -110,6 +110,13 @@ thead > tr > td{
     font-weight: bold;
     
 }
+thead{
+    width: 100%;
+}
+
+tbody{
+    width: 100%;
+}
 
 tbody > tr > td{
     white-space: nowrap;
@@ -118,7 +125,7 @@ tbody > tr > td{
 }
 
 footer{
-    width: 100vw;
+    width: 100%;
     background-color: black;
     color: white;
     text-align: center;
