@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* CONFIG. COM CLASS */
+
+.pos{
+    text-align: center;
+    padding: 10px;
+}
+
+.uf{
+    text-align: center;
+    padding: 5px;
+}
+
+.ufb{
+    padding: 5px;
+}
+
+.forma-h1{
+    text-align: center;
+    padding: 10px;
+}
+
+.forma-h2{
+    text-align: center;
+    padding: 10px;
+}
+
+
+td.forma{
+    text-align: center;
+    padding: 10px 5px;
+
+}
+
+.tab{
+    padding: 10px;
+    text-align: center;
+}
+
+.cl-g{
+    text-align: center;
+    padding: 10px;
+}
+
+.cl-g > span{
+    color: green;
+}
+
+.total{
+    padding: 10px;
+    text-align: center;
+}
+
+.pais{
+    text-align: center;
+    padding: 0px 30px 0px;
+}
+
+
+
+/*--------------------------------*/
+
+
+
+
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover{
+    text-decoration: underline;
+
+}
+
+
+h1{
+    text-align: center ;
+    padding: 50px;
+}
+
+h1 a{
+
+    font-size: 0.7em;
+}
+
+table{
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+thead > tr > td{
+    line-height: 1.5em;
+    border: 1px solid #a0a2a5;
+    background-color: #EAECF0;
+    font-weight: bold;
+    
+}
+
+tbody > tr > td{
+    white-space: nowrap;
+    border: 1px solid #a0a2a5;
+    background-color: #F8F9FA;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight:bold;
+    font-size: 1.5em;
+}
