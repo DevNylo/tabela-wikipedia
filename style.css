@@ -97,7 +97,7 @@ h1 a{
 }
 
 table{
-    width: 50%;
+    width: 10vw;
     margin: auto;
     border-collapse: collapse;
     margin-bottom: 50px;
@@ -118,7 +118,7 @@ tbody > tr > td{
 }
 
 footer{
-    width: 100%;
+    width: 100vw;
     background-color: black;
     color: white;
     text-align: center;
