@@ -9,7 +9,10 @@
     <title>Tabela (Clone) Lista de unidades federativas do Brasil por população</title>
 </head>
 <body>
-    <h1>Tabela Wikipedia <a href="https://pt.wikipedia.org/wiki/Lista_de_unidades_federativas_do_Brasil_por_popula%C3%A7%C3%A3o" target="_blank"> <sup>[Link]</sup></a></h1>
+    
+    <div id="about">
+        <a href="https://github.com/DevNylo" target="_blank"><img src="IMG/gb-logo.png" alt="Github" title="Clone by: DevNylo" ></a>
+    </div>
     <!--
         ANATOMIA PARA TABELAS GRANDES
         
@@ -29,16 +32,17 @@
     -->
 
     <table>
+        <caption>Tabela Wikipedia <a href="https://pt.wikipedia.org/wiki/Lista_de_unidades_federativas_do_Brasil_por_popula%C3%A7%C3%A3o" target="_blank"> <sup>[Link]</sup></a></caption>
 
         <thead>
             <tr>
-                <td class="pos">Posição</td>
-                <td class="uf">Unidade Federativa</td>
-                <td class="forma-h1">População (2010) <a href="https://pt.wikipedia.org/wiki/Lista_de_unidades_federativas_do_Brasil_por_popula%C3%A7%C3%A3o#cite_note-2" target="_blank"><sup>[2]</sup></a></a></td>
-                <td class="forma-h2">População (2021)</td>
-                <td class="tab">Tabela</td>
-                <td class="total">% da pop. total</td>
-                <td class="pais">País comparável (habitantes)</td>
+                <th class="pos" scope="col" >Posição</th>
+                <th class="uf" scope="col">Unidade Federativa</th>
+                <th class="forma-h1" scope="col">População (2010) <a href="https://pt.wikipedia.org/wiki/Lista_de_unidades_federativas_do_Brasil_por_popula%C3%A7%C3%A3o#cite_note-2" target="_blank"><sup>[2]</sup></a></a></th>
+                <th class="forma-h2" scope="col">População (2021)</th>
+                <th class="tab" scope="col">Tabela</th>
+                <th class="total" scope="col">% da pop. total</th>
+                <th class="pais" scope="col">País comparável (habitantes)</th>
             </tr>
         </thead>
 
@@ -289,7 +293,6 @@
         </tbody>
 
     </table>
-    <footer>Clone criado por <a href="https://github.com/DevNylo" target="_blank">Nylo</a> para estudos referente a tabelas. Todos os direitos são pertencentes a <a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal" target="_blank">Wikipedia.</a></footer>
 </body>
 
 </html>
