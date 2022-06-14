@@ -113,6 +113,11 @@ table{
 }
 
 thead > tr > th{
+    /*EFEITO STICKY*/
+    position: sticky;
+    top: -1px;
+    /*-------------*/
+
     line-height: 1.5em;
     border: 1px solid #a0a2a5;
     background-color: #EAECF0;
