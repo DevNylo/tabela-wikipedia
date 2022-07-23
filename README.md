@@ -1,7 +1,5 @@
-# tabela-wikipedia
-Clone da tabela do Wikipedia para estudos referentes a tabelas.
+# <a href="https://devnylo.github.io/tabela-wikipedia/">Tabela Wikipedia</a>
 
-Os elementos e JS não foram atribuído.
+Tabela de artigo do Wikipedia recriada para estudos de table.
 
-Criado em 12/06/22
-Finalizado em 12/06/22
+
